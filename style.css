@@ -1,0 +1,50 @@
+
+  body {
+    background-color:rgba(220, 220, 220, 0.76);
+
+  }
+  
+@media (min-width: 270px) {
+    body {
+      max-width: 100%;
+      font-size: 14px;
+    }
+    article {
+      max-width: 100%;
+    }
+    .img-fluid{
+      width: 25%;
+    }
+    
+}
+
+
+header {
+  background-image: url(obrazky/ponton.jpg);
+  background-repeat: no-repeat;
+
+  
+}
+footer {
+  box-sizing: border-box;
+  height: 50px;
+  padding: 50px 0 0 0;
+  clip-path: polygon(0 30px, 100% 0, 100% 100%, 0 100%);
+  
+}
+
+.card-body{
+  background-color:rgba(220, 220, 220, 0.76);
+}
+
+h3 {
+  padding-top:50px;
+}
+p {
+  font-size: 18px;
+}
+
+
+
+
+ 
